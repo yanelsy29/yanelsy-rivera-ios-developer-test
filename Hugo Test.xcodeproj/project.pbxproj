@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06475B6525424AE3007E20FB /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475B6225424AE2007E20FB /* Car+CoreDataClass.swift */; };
+		06475B6725424AE3007E20FB /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475B6325424AE2007E20FB /* Car+CoreDataProperties.swift */; };
+		06475B95254253F3007E20FB /* Hugo_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06475B93254253F2007E20FB /* Hugo_Test.xcdatamodeld */; };
+		06475BC025428CA7007E20FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475BBF25428CA7007E20FB /* MainViewController.swift */; };
+		06475BC725429065007E20FB /* UIBarButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475BC625429065007E20FB /* UIBarButton+Ext.swift */; };
+		06475BCC254292FB007E20FB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475BCB254292FB007E20FB /* MenuViewController.swift */; };
+		06475BD1254293E1007E20FB /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475BD0254293E1007E20FB /* UIViewController+Ext.swift */; };
+		06475BD62542988A007E20FB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475BD52542988A007E20FB /* BaseViewController.swift */; };
+		06475BE72542A610007E20FB /* RegisterDateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475B552541FD73007E20FB /* RegisterDateViewModel.swift */; };
+		06475BEC2542B43D007E20FB /* RegistrationCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475BEB2542B43D007E20FB /* RegistrationCarViewController.swift */; };
+		06475BF12542B5E9007E20FB /* RegisterCarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475BF02542B5E9007E20FB /* RegisterCarViewModel.swift */; };
+		06475BF92542D4A3007E20FB /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475BF82542D4A3007E20FB /* MenuViewModel.swift */; };
+		06475BFE2542DF4D007E20FB /* ResidentPaymentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475BFD2542DF4D007E20FB /* ResidentPaymentListViewModel.swift */; };
+		06475C032542E669007E20FB /* ResidentPaymentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06475C022542E669007E20FB /* ResidentPaymentListViewController.swift */; };
+		064E7E99253FD3CE004D1C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064E7E98253FD3CE004D1C86 /* AppDelegate.swift */; };
+		064E7E9B253FD3CE004D1C86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064E7E9A253FD3CE004D1C86 /* SceneDelegate.swift */; };
+		064E7E9D253FD3CE004D1C86 /* RegistrationDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064E7E9C253FD3CE004D1C86 /* RegistrationDateViewController.swift */; };
+		064E7EA0253FD3CE004D1C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064E7E9E253FD3CE004D1C86 /* Main.storyboard */; };
+		064E7EA5253FD3D5004D1C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064E7EA4253FD3D5004D1C86 /* Assets.xcassets */; };
+		064E7EA8253FD3D5004D1C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064E7EA6253FD3D5004D1C86 /* LaunchScreen.storyboard */; };
+		064E7EB3253FD3D5004D1C86 /* Hugo_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064E7EB2253FD3D5004D1C86 /* Hugo_TestTests.swift */; };
+		064E7EBE253FD3D6004D1C86 /* Hugo_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064E7EBD253FD3D6004D1C86 /* Hugo_TestUITests.swift */; };
+		148F7AFF077211BD94864006 /* Pods_Hugo_Test_Hugo_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045E98255776F493E58680D /* Pods_Hugo_Test_Hugo_TestUITests.framework */; };
+		298A60C2C613721F5F976612 /* Pods_Hugo_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312BACBD35B7EE3447AA9B3B /* Pods_Hugo_Test.framework */; };
+		D1052245D5E1E514B1B1E90B /* Pods_Hugo_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B62DDD0ED951C0B8388BAC /* Pods_Hugo_TestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		064E7EAF253FD3D5004D1C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064E7E8D253FD3CD004D1C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064E7E94253FD3CE004D1C86;
+			remoteInfo = "Hugo Test";
+		};
+		064E7EBA253FD3D6004D1C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064E7E8D253FD3CD004D1C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064E7E94253FD3CE004D1C86;
+			remoteInfo = "Hugo Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06475B552541FD73007E20FB /* RegisterDateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDateViewModel.swift; sourceTree = "<group>"; };
+		06475B6225424AE2007E20FB /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataClass.swift"; path = "/Users/yanelsyrivera/Desktop/Hugo Test/Hugo Test/Model/Car+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		06475B6325424AE2007E20FB /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataProperties.swift"; path = "/Users/yanelsyrivera/Desktop/Hugo Test/Hugo Test/Model/Car+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		06475B94254253F2007E20FB /* Hugo_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hugo_Test.xcdatamodel; sourceTree = "<group>"; };
+		06475BBF25428CA7007E20FB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		06475BC625429065007E20FB /* UIBarButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButton+Ext.swift"; sourceTree = "<group>"; };
+		06475BCB254292FB007E20FB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		06475BD0254293E1007E20FB /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		06475BD52542988A007E20FB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		06475BEB2542B43D007E20FB /* RegistrationCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCarViewController.swift; sourceTree = "<group>"; };
+		06475BF02542B5E9007E20FB /* RegisterCarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCarViewModel.swift; sourceTree = "<group>"; };
+		06475BF82542D4A3007E20FB /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		06475BFD2542DF4D007E20FB /* ResidentPaymentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentPaymentListViewModel.swift; sourceTree = "<group>"; };
+		06475C022542E669007E20FB /* ResidentPaymentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentPaymentListViewController.swift; sourceTree = "<group>"; };
+		064E7E95253FD3CE004D1C86 /* Hugo Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hugo Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064E7E98253FD3CE004D1C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		064E7E9A253FD3CE004D1C86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		064E7E9C253FD3CE004D1C86 /* RegistrationDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDateViewController.swift; sourceTree = "<group>"; };
+		064E7E9F253FD3CE004D1C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		064E7EA4253FD3D5004D1C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		064E7EA7253FD3D5004D1C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		064E7EA9253FD3D5004D1C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064E7EAE253FD3D5004D1C86 /* Hugo TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hugo TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064E7EB2253FD3D5004D1C86 /* Hugo_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hugo_TestTests.swift; sourceTree = "<group>"; };
+		064E7EB4253FD3D5004D1C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064E7EB9253FD3D6004D1C86 /* Hugo TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hugo TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064E7EBD253FD3D6004D1C86 /* Hugo_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hugo_TestUITests.swift; sourceTree = "<group>"; };
+		064E7EBF253FD3D6004D1C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0884EFDA66E72FE3947BA95E /* Pods-Hugo TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hugo TestTests.debug.xcconfig"; path = "Target Support Files/Pods-Hugo TestTests/Pods-Hugo TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1045E98255776F493E58680D /* Pods_Hugo_Test_Hugo_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hugo_Test_Hugo_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		140D9F5108408B1034846BB9 /* Pods-Hugo Test-Hugo TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hugo Test-Hugo TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hugo Test-Hugo TestUITests/Pods-Hugo Test-Hugo TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14AB670B8B185260EC641D23 /* Pods-Hugo Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hugo Test.release.xcconfig"; path = "Target Support Files/Pods-Hugo Test/Pods-Hugo Test.release.xcconfig"; sourceTree = "<group>"; };
+		312BACBD35B7EE3447AA9B3B /* Pods_Hugo_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hugo_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		659AB41A894396B6B2FA9188 /* Pods-Hugo TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hugo TestTests.release.xcconfig"; path = "Target Support Files/Pods-Hugo TestTests/Pods-Hugo TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9174220BAC62044B7C45270 /* Pods-Hugo Test-Hugo TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hugo Test-Hugo TestUITests.release.xcconfig"; path = "Target Support Files/Pods-Hugo Test-Hugo TestUITests/Pods-Hugo Test-Hugo TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9B62DDD0ED951C0B8388BAC /* Pods_Hugo_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hugo_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB14FF214463F10F776BADC /* Pods-Hugo Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hugo Test.debug.xcconfig"; path = "Target Support Files/Pods-Hugo Test/Pods-Hugo Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064E7E92253FD3CE004D1C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298A60C2C613721F5F976612 /* Pods_Hugo_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064E7EAB253FD3D5004D1C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1052245D5E1E514B1B1E90B /* Pods_Hugo_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064E7EB6253FD3D6004D1C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F7AFF077211BD94864006 /* Pods_Hugo_Test_Hugo_TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062E5B3B25414C9700D500B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06475B93254253F2007E20FB /* Hugo_Test.xcdatamodeld */,
+				06475B6225424AE2007E20FB /* Car+CoreDataClass.swift */,
+				06475B6325424AE2007E20FB /* Car+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		062E5B4E25415BF900D500B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				06475B552541FD73007E20FB /* RegisterDateViewModel.swift */,
+				06475BF02542B5E9007E20FB /* RegisterCarViewModel.swift */,
+				06475BF82542D4A3007E20FB /* MenuViewModel.swift */,
+				06475BFD2542DF4D007E20FB /* ResidentPaymentListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		06475BB825428C69007E20FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06475BBF25428CA7007E20FB /* MainViewController.swift */,
+				06475BCB254292FB007E20FB /* MenuViewController.swift */,
+				06475BD52542988A007E20FB /* BaseViewController.swift */,
+				064E7E9C253FD3CE004D1C86 /* RegistrationDateViewController.swift */,
+				06475BEB2542B43D007E20FB /* RegistrationCarViewController.swift */,
+				06475C022542E669007E20FB /* ResidentPaymentListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		06475BC42542903B007E20FB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				06475BC525429047007E20FB /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		06475BC525429047007E20FB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				06475BD0254293E1007E20FB /* UIViewController+Ext.swift */,
+				06475BC625429065007E20FB /* UIBarButton+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		064E7E8C253FD3CD004D1C86 = {
+			isa = PBXGroup;
+			children = (
+				064E7E97253FD3CE004D1C86 /* Hugo Test */,
+				064E7EB1253FD3D5004D1C86 /* Hugo TestTests */,
+				064E7EBC253FD3D6004D1C86 /* Hugo TestUITests */,
+				064E7E96253FD3CE004D1C86 /* Products */,
+				FA7588EA8874D99FC6AEC765 /* Pods */,
+				46910E78168FD23D1CF2840B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		064E7E96253FD3CE004D1C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064E7E95253FD3CE004D1C86 /* Hugo Test.app */,
+				064E7EAE253FD3D5004D1C86 /* Hugo TestTests.xctest */,
+				064E7EB9253FD3D6004D1C86 /* Hugo TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		064E7E97253FD3CE004D1C86 /* Hugo Test */ = {
+			isa = PBXGroup;
+			children = (
+				06475BC42542903B007E20FB /* Utils */,
+				06475BB825428C69007E20FB /* Controller */,
+				062E5B4E25415BF900D500B6 /* ViewModel */,
+				062E5B3B25414C9700D500B6 /* Model */,
+				064E7E98253FD3CE004D1C86 /* AppDelegate.swift */,
+				064E7E9A253FD3CE004D1C86 /* SceneDelegate.swift */,
+				064E7E9E253FD3CE004D1C86 /* Main.storyboard */,
+				064E7EA4253FD3D5004D1C86 /* Assets.xcassets */,
+				064E7EA6253FD3D5004D1C86 /* LaunchScreen.storyboard */,
+				064E7EA9253FD3D5004D1C86 /* Info.plist */,
+			);
+			path = "Hugo Test";
+			sourceTree = "<group>";
+		};
+		064E7EB1253FD3D5004D1C86 /* Hugo TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				064E7EB2253FD3D5004D1C86 /* Hugo_TestTests.swift */,
+				064E7EB4253FD3D5004D1C86 /* Info.plist */,
+			);
+			path = "Hugo TestTests";
+			sourceTree = "<group>";
+		};
+		064E7EBC253FD3D6004D1C86 /* Hugo TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				064E7EBD253FD3D6004D1C86 /* Hugo_TestUITests.swift */,
+				064E7EBF253FD3D6004D1C86 /* Info.plist */,
+			);
+			path = "Hugo TestUITests";
+			sourceTree = "<group>";
+		};
+		46910E78168FD23D1CF2840B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				312BACBD35B7EE3447AA9B3B /* Pods_Hugo_Test.framework */,
+				1045E98255776F493E58680D /* Pods_Hugo_Test_Hugo_TestUITests.framework */,
+				D9B62DDD0ED951C0B8388BAC /* Pods_Hugo_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA7588EA8874D99FC6AEC765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFB14FF214463F10F776BADC /* Pods-Hugo Test.debug.xcconfig */,
+				14AB670B8B185260EC641D23 /* Pods-Hugo Test.release.xcconfig */,
+				140D9F5108408B1034846BB9 /* Pods-Hugo Test-Hugo TestUITests.debug.xcconfig */,
+				C9174220BAC62044B7C45270 /* Pods-Hugo Test-Hugo TestUITests.release.xcconfig */,
+				0884EFDA66E72FE3947BA95E /* Pods-Hugo TestTests.debug.xcconfig */,
+				659AB41A894396B6B2FA9188 /* Pods-Hugo TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		064E7E94253FD3CE004D1C86 /* Hugo Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064E7EC2253FD3D6004D1C86 /* Build configuration list for PBXNativeTarget "Hugo Test" */;
+			buildPhases = (
+				F3B6963833B7CBC04DA8A440 /* [CP] Check Pods Manifest.lock */,
+				064E7E91253FD3CE004D1C86 /* Sources */,
+				064E7E92253FD3CE004D1C86 /* Frameworks */,
+				064E7E93253FD3CE004D1C86 /* Resources */,
+				8E1C45722214703AA69A83D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hugo Test";
+			productName = "Hugo Test";
+			productReference = 064E7E95253FD3CE004D1C86 /* Hugo Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		064E7EAD253FD3D5004D1C86 /* Hugo TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064E7EC5253FD3D6004D1C86 /* Build configuration list for PBXNativeTarget "Hugo TestTests" */;
+			buildPhases = (
+				8DA1414DD891E29A0D94BE3A /* [CP] Check Pods Manifest.lock */,
+				064E7EAA253FD3D5004D1C86 /* Sources */,
+				064E7EAB253FD3D5004D1C86 /* Frameworks */,
+				064E7EAC253FD3D5004D1C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064E7EB0253FD3D5004D1C86 /* PBXTargetDependency */,
+			);
+			name = "Hugo TestTests";
+			productName = "Hugo TestTests";
+			productReference = 064E7EAE253FD3D5004D1C86 /* Hugo TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		064E7EB8253FD3D6004D1C86 /* Hugo TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064E7EC8253FD3D6004D1C86 /* Build configuration list for PBXNativeTarget "Hugo TestUITests" */;
+			buildPhases = (
+				EF03EBB22860A121F488A51C /* [CP] Check Pods Manifest.lock */,
+				064E7EB5253FD3D6004D1C86 /* Sources */,
+				064E7EB6253FD3D6004D1C86 /* Frameworks */,
+				064E7EB7253FD3D6004D1C86 /* Resources */,
+				E94632AB94580A702016BC2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064E7EBB253FD3D6004D1C86 /* PBXTargetDependency */,
+			);
+			name = "Hugo TestUITests";
+			productName = "Hugo TestUITests";
+			productReference = 064E7EB9253FD3D6004D1C86 /* Hugo TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		064E7E8D253FD3CD004D1C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					064E7E94253FD3CE004D1C86 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					064E7EAD253FD3D5004D1C86 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 064E7E94253FD3CE004D1C86;
+					};
+					064E7EB8253FD3D6004D1C86 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 064E7E94253FD3CE004D1C86;
+					};
+				};
+			};
+			buildConfigurationList = 064E7E90253FD3CD004D1C86 /* Build configuration list for PBXProject "Hugo Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 064E7E8C253FD3CD004D1C86;
+			productRefGroup = 064E7E96253FD3CE004D1C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				064E7E94253FD3CE004D1C86 /* Hugo Test */,
+				064E7EAD253FD3D5004D1C86 /* Hugo TestTests */,
+				064E7EB8253FD3D6004D1C86 /* Hugo TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		064E7E93253FD3CE004D1C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064E7EA8253FD3D5004D1C86 /* LaunchScreen.storyboard in Resources */,
+				064E7EA5253FD3D5004D1C86 /* Assets.xcassets in Resources */,
+				064E7EA0253FD3CE004D1C86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064E7EAC253FD3D5004D1C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064E7EB7253FD3D6004D1C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DA1414DD891E29A0D94BE3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hugo TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1C45722214703AA69A83D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hugo Test/Pods-Hugo Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hugo Test/Pods-Hugo Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hugo Test/Pods-Hugo Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94632AB94580A702016BC2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hugo Test-Hugo TestUITests/Pods-Hugo Test-Hugo TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hugo Test-Hugo TestUITests/Pods-Hugo Test-Hugo TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hugo Test-Hugo TestUITests/Pods-Hugo Test-Hugo TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF03EBB22860A121F488A51C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hugo Test-Hugo TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B6963833B7CBC04DA8A440 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hugo Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064E7E91253FD3CE004D1C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064E7E9D253FD3CE004D1C86 /* RegistrationDateViewController.swift in Sources */,
+				06475BE72542A610007E20FB /* RegisterDateViewModel.swift in Sources */,
+				06475BEC2542B43D007E20FB /* RegistrationCarViewController.swift in Sources */,
+				06475BF92542D4A3007E20FB /* MenuViewModel.swift in Sources */,
+				06475BCC254292FB007E20FB /* MenuViewController.swift in Sources */,
+				06475BFE2542DF4D007E20FB /* ResidentPaymentListViewModel.swift in Sources */,
+				06475BC725429065007E20FB /* UIBarButton+Ext.swift in Sources */,
+				06475BD1254293E1007E20FB /* UIViewController+Ext.swift in Sources */,
+				06475BF12542B5E9007E20FB /* RegisterCarViewModel.swift in Sources */,
+				06475BD62542988A007E20FB /* BaseViewController.swift in Sources */,
+				06475B95254253F3007E20FB /* Hugo_Test.xcdatamodeld in Sources */,
+				06475C032542E669007E20FB /* ResidentPaymentListViewController.swift in Sources */,
+				064E7E99253FD3CE004D1C86 /* AppDelegate.swift in Sources */,
+				064E7E9B253FD3CE004D1C86 /* SceneDelegate.swift in Sources */,
+				06475B6725424AE3007E20FB /* Car+CoreDataProperties.swift in Sources */,
+				06475B6525424AE3007E20FB /* Car+CoreDataClass.swift in Sources */,
+				06475BC025428CA7007E20FB /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064E7EAA253FD3D5004D1C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064E7EB3253FD3D5004D1C86 /* Hugo_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064E7EB5253FD3D6004D1C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064E7EBE253FD3D6004D1C86 /* Hugo_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		064E7EB0253FD3D5004D1C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064E7E94253FD3CE004D1C86 /* Hugo Test */;
+			targetProxy = 064E7EAF253FD3D5004D1C86 /* PBXContainerItemProxy */;
+		};
+		064E7EBB253FD3D6004D1C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064E7E94253FD3CE004D1C86 /* Hugo Test */;
+			targetProxy = 064E7EBA253FD3D6004D1C86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		064E7E9E253FD3CE004D1C86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064E7E9F253FD3CE004D1C86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		064E7EA6253FD3D5004D1C86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064E7EA7253FD3D5004D1C86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		064E7EC0253FD3D6004D1C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		064E7EC1253FD3D6004D1C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		064E7EC3253FD3D6004D1C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB14FF214463F10F776BADC /* Pods-Hugo Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hugo Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanelsy.Hugo-Test.Hugo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		064E7EC4253FD3D6004D1C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14AB670B8B185260EC641D23 /* Pods-Hugo Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hugo Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanelsy.Hugo-Test.Hugo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		064E7EC6253FD3D6004D1C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0884EFDA66E72FE3947BA95E /* Pods-Hugo TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hugo TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanelsy.Hugo-Test.Hugo-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hugo Test.app/Hugo Test";
+			};
+			name = Debug;
+		};
+		064E7EC7253FD3D6004D1C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659AB41A894396B6B2FA9188 /* Pods-Hugo TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hugo TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanelsy.Hugo-Test.Hugo-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hugo Test.app/Hugo Test";
+			};
+			name = Release;
+		};
+		064E7EC9253FD3D6004D1C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140D9F5108408B1034846BB9 /* Pods-Hugo Test-Hugo TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hugo TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanelsy.Hugo-Test.Hugo-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hugo Test";
+			};
+			name = Debug;
+		};
+		064E7ECA253FD3D6004D1C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9174220BAC62044B7C45270 /* Pods-Hugo Test-Hugo TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hugo TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanelsy.Hugo-Test.Hugo-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hugo Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064E7E90253FD3CD004D1C86 /* Build configuration list for PBXProject "Hugo Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064E7EC0253FD3D6004D1C86 /* Debug */,
+				064E7EC1253FD3D6004D1C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064E7EC2253FD3D6004D1C86 /* Build configuration list for PBXNativeTarget "Hugo Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064E7EC3253FD3D6004D1C86 /* Debug */,
+				064E7EC4253FD3D6004D1C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064E7EC5253FD3D6004D1C86 /* Build configuration list for PBXNativeTarget "Hugo TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064E7EC6253FD3D6004D1C86 /* Debug */,
+				064E7EC7253FD3D6004D1C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064E7EC8253FD3D6004D1C86 /* Build configuration list for PBXNativeTarget "Hugo TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064E7EC9253FD3D6004D1C86 /* Debug */,
+				064E7ECA253FD3D6004D1C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06475B93254253F2007E20FB /* Hugo_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06475B94254253F2007E20FB /* Hugo_Test.xcdatamodel */,
+			);
+			currentVersion = 06475B94254253F2007E20FB /* Hugo_Test.xcdatamodel */;
+			path = Hugo_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 064E7E8D253FD3CD004D1C86 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Hugo_TestTests {
+  umbrella header "Pods-Hugo TestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
